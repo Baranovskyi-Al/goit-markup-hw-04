@@ -45,10 +45,20 @@
 
         <ul class="header-addr-list">
           <li class="addr-item">
-            <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="address-link"
+              ><svg class="addr-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="addr-item">
-            <a href="tel:+380961111111" class="address-link">+38096111111</a>
+            <a href="tel:+380961111111" class="address-link"
+              ><svg class="addr-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38096111111
+            </a>
           </li>
         </ul>
       </div>
@@ -83,7 +93,7 @@
           <h2 class="heading-visible">Проекты</h2>
           <ul class="portfolio">
             <li class="portfolio-card">
-              <a href="">
+              <a href="" class="portfolio-card-link">
                 <div class="portfolio-card-thumb">
                   <img src="./images/img_pf_1.jpg" alt="Технокряк" />
                 </div>
@@ -95,7 +105,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="">
+              <a href="" class="portfolio-card-link">
                 <div class="portfolio-card-thumb">
                   <img src="./images/img_pf_2.jpg" alt="Постер NO vs GS" />
                 </div>
@@ -109,7 +119,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="">
+              <a href="" class="portfolio-card-link">
                 <div class="portfolio-card-thumb">
                   <img src="./images/img_pf_3.jpg" alt="Ресторан Seafood" />
                 </div>
@@ -121,7 +131,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href=""
+              <a href="" class="portfolio-card-link"
                 ><div class="portfolio-card-thumb">
                   <img src="./images/img_pf_4.jpg" alt="Проект Prime" />
                 </div>
@@ -133,7 +143,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="">
+              <a href="" class="portfolio-card-link">
                 <div class="portfolio-card-thumb">
                   <img src="./images/img_pf_5.jpg" alt="Проект Boxes" />
                 </div>
@@ -145,7 +155,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href=""
+              <a href="" class="portfolio-card-link"
                 ><div class="portfolio-card-thumb">
                   <img src="./images/img_pf_6.jpg" alt="Inspiration has no Borders" />
                 </div>
@@ -157,7 +167,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="">
+              <a href="" class="portfolio-card-link">
                 <div class="portfolio-card-thumb">
                   <img src="./images/img_pf_7.jpg" alt="Издание Limited Edition" />
                 </div>
@@ -169,7 +179,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href=""
+              <a href="" class="portfolio-card-link"
                 ><div class="portfolio-card-thumb">
                   <img src="./images/img_pf_8.jpg" alt="Проект LAB" />
                 </div>
@@ -181,7 +191,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href=""
+              <a href="" class="portfolio-card-link"
                 ><div class="portfolio-card-thumb">
                   <img src="./images/img_pf_9.jpg" alt="Growing Business" />
                 </div>
@@ -198,28 +208,69 @@
     <!--Подвал-->
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-flex">
         <!--Логотип-->
 
-        <a lang="en" href="" class="logo footer-logo"
-          >Web<span class="footer-logo-studio">Studio</span></a
-        >
+        <div class="footer-address">
+          <a lang="en" href="" class="logo footer-logo"
+            >Web<span class="footer-logo-studio">Studio</span>
+          </a>
 
-        <!--Адрес и контакты-->
+          <!--Адрес и контакты-->
 
-        <address id="contacts" class="footer-address">
-          <ul>
-            <li class="footer-addr-item">
-              <a href="" class="footer-address-text">г. Киев, пр-т Леси Украинки, 26</a>
+          <address id="contacts">
+            <ul>
+              <li class="footer-addr-item">
+                <a href="" class="footer-address-text">г. Киев, пр-т Леси Украинки, 26</a>
+              </li>
+              <li class="footer-addr-item">
+                <a href="mailto:info@devstudio.com" class="footer-address-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-addr-item">
+                <a href="tel:+380961111111" class="footer-address-link">+38096111111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <!-- Соцсети в футере -->
+
+        <div class="footer-social">
+          <h2 class="footer-social-title">Присоединяйтесь</h2>
+
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link"
+                ><svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-addr-item">
-              <a href="mailto:info@devstudio.com" class="footer-address-link">info@devstudio.com</a>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link"
+                ><svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-addr-item">
-              <a href="tel:+380961111111" class="footer-address-link">+38096111111</a>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link"
+                ><svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link"
+                ><svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
